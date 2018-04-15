@@ -1,0 +1,31 @@
+{
+	"success": true,
+	"vip": [
+		{
+			"cover": "static/pic/nest_forum/moment.jpg",
+			"name": "5梁志天",
+			"desc": "5555这是梁志天的个人简介这是梁志天的个人简介这是梁志天的个人简介",
+			"link": "http://www.baidu.com"
+		},
+		{
+			"cover": "static/pic/nest_forum/moment.jpg",
+			"name": "梁志天",
+			"desc": "这是梁志天的个人简介这是梁志天的个人简介这是梁志天的个人简介",
+			"link": "http://www.baidu.com"
+		}
+	],
+	"list": [
+		{
+			"cover": "static/pic/nest_forum/moment.jpg",
+			"link": "http://www.baidu.com"
+		},
+		{
+			"cover": "static/pic/nest_forum/moment.jpg",
+			"link": "http://www.baidu.com"
+		},
+		{
+			"cover": "static/pic/nest_forum/moment.jpg",
+			"link": "http://www.baidu.com"
+		}
+	]
+}

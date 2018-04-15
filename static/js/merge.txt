@@ -1,0 +1,12 @@
+<script type="text/javascript" src="static/js/jquery.min.js"></script>
+<script type="text/javascript" src="static/js/nodetpl.min.js"></script>
+<script type="text/javascript" src="static/js/swiper.min.js"></script>
+<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script type="text/javascript" src="static/js/index.js"></script>
+
+
+uglifyjs jquery.min.js nodetpl.min.js swiper.min.js jweixin-1.0.0.js index.js -o zt.min.js --source-map zt.min.js.map
+
+
+
+<script type="text/javascript" src="static/js/zt.min.js"></script>

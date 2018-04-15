@@ -1,0 +1,69 @@
+{
+	"success": true,
+	"data": {
+		"group1": [
+			{
+				"cover": "static/pic/judge/pre-cover.png",
+				"name": "1梁志天",
+				"desc": "这是梁志天的自我介绍这是梁志天的自我介绍这是梁志天的自我介绍",
+				"url": "javascript:;"
+			},
+			{
+				"cover": "static/pic/judge/pre-cover.png",
+				"name": "2梁志天",
+				"desc": "这是梁志天的自我介绍这是梁志天的自我介绍这是梁志天的自我介绍",
+				"url": "javascript:;"
+			},
+			{
+				"cover": "static/pic/judge/pre-cover.png",
+				"name": "3梁志天",
+				"desc": "这是梁志天的自我介绍这是梁志天的自我介绍这是梁志天的自我介绍",
+				"url": "javascript:;"
+			},
+			{
+				"cover": "static/pic/judge/pre-cover.png",
+				"name": "4梁志天",
+				"desc": "这是梁志天的自我介绍这是梁志天的自我介绍这是梁志天的自我介绍",
+				"url": "javascript:;"
+			},
+			{
+				"cover": "static/pic/judge/pre-cover.png",
+				"name": "5梁志天",
+				"desc": "这是梁志天的自我介绍这是梁志天的自我介绍这是梁志天的自我介绍",
+				"url": "javascript:;"
+			}		
+		],
+		"group2": [
+			{
+				"cover": "static/pic/judge/pre-cover.png",
+				"name": "11梁志天",
+				"desc": "这是梁志天的自我介绍这是梁志天的自我介绍这是梁志天的自我介绍",
+				"url": "javascript:;"
+			},
+			{
+				"cover": "static/pic/judge/pre-cover.png",
+				"name": "12梁志天",
+				"desc": "这是梁志天的自我介绍这是梁志天的自我介绍这是梁志天的自我介绍",
+				"url": "javascript:;"
+			},
+			{
+				"cover": "static/pic/judge/pre-cover.png",
+				"name": "3梁志天",
+				"desc": "这是梁志天的自我介绍这是梁志天的自我介绍这是梁志天的自我介绍",
+				"url": "javascript:;"
+			},
+			{
+				"cover": "static/pic/judge/pre-cover.png",
+				"name": "4梁志天",
+				"desc": "这是梁志天的自我介绍这是梁志天的自我介绍这是梁志天的自我介绍",
+				"url": "javascript:;"
+			},
+			{
+				"cover": "static/pic/judge/pre-cover.png",
+				"name": "5梁志天",
+				"desc": "这是梁志天的自我介绍这是梁志天的自我介绍这是梁志天的自我介绍",
+				"url": "javascript:;"
+			}		
+		]
+	}	
+}

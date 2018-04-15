@@ -1,0 +1,41 @@
+视频
+	连接替换掉http://7bv9q9.com1.z0.glb.clouddn.com/2017-third-hyb-desc.mp4
+
+学术论坛
+	html中修改数据，文件中搜索学术论坛定位到该模块
+	图片放在static/pic/academic下
+	图片让胡维处理成332x411
+
+精彩瞬间（注释：凡是碰到图片src处是spacer.png的，都修改style中的图片）
+	html中修改数据，文件中搜索精彩瞬间
+	图片放在static/pic/moment下
+
+	每一张图片修改的地方有两处，修改style中的图片
+
+	<img src="static/pic/spacer.png" style="background-image: url('static/pic/moment/moment.jpg')">
+	<img class="original" src="static/pic/spacer.png" style="background-image: url('static/pic/moment/moment.jpg')">
+
+颁奖嘉宾
+	html中修改数据，搜索颁奖嘉宾
+	图片放在static/pic/presenters下
+	图片尺寸让胡维处理成354x560的
+
+直击现场
+	html中修改数据，搜索直击现场
+
+
+获奖名单
+	数据修改在static/api/winners/winners.json中修改
+	图片放在static/pic/winners下对应的page1-page7中
+	该模块一共砌块内容，对应的分别是page1-page7
+
+	page1中cover是设计师的头像，url是设计师的链接地址（如果没有可以不修改此处），其余同理
+
+组委会成员
+	数据修改在static/api/nest_award/nest_award.json中修改
+	图片放在static/pic/nest_award下
+
+	name代表姓名，cover是封面图片，url组委会成员地址（若没有此处可不修改），desc组委会介绍
+
+
+
