@@ -360,7 +360,10 @@
 			<div class="designer-list-in">
 				{{#each data.page1}}
 				<a class="designer-item" href="{{url}}" target="_blank">
-					<img src="static/pic/spacer.png" style="background-image: url('{{cover}}');">
+					<div class="designer-cover">
+						<img src="static/pic/spacer.png" style="background-image: url('{{cover}}');">
+					</div>
+					<p class="designer-item-name">{{name}}</p>
 				</a>
 				{{/each}}
 			</div>
@@ -390,7 +393,10 @@
 			<div class="designer-list-in">
 				{{#each data.page3}}
 				<a class="designer-item" href="{{url}}">
-					<img src="static/pic/spacer.png" style="background-image: url('{{cover}}');">
+					<div class="designer-cover">
+						<img src="static/pic/spacer.png" style="background-image: url('{{cover}}');">
+					</div>
+					<p class="designer-item-name">{{name}}</p>
 				</a>
 				{{/each}}
 			</div>

@@ -564,6 +564,9 @@ h2.tit img{
 }
 .designer-item{
 	float: left;
+	margin: 0 28px 40px 0;
+}
+.designer-cover{
 	width: 185px;
 	height: 185px;
 	overflow: hidden;
@@ -573,8 +576,13 @@ h2.tit img{
 	border: 2px solid #fff;
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	margin: 0 28px 40px 0;
+	-moz-box-sizing: border-box;	
+}
+.designer-item-name{
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+	margin-top: 25px;
 }
 .designer-item:nth-child(5n){
 	margin-right: 0;
