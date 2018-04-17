@@ -565,6 +565,8 @@ h2.tit img{
 .designer-item{
 	float: left;
 	margin: 0 28px 40px 0;
+    width: 185px;
+    overflow: hidden;	
 }
 .designer-cover{
 	width: 185px;
@@ -583,6 +585,7 @@ h2.tit img{
 	font-size: 20px;
 	color: #fff;
 	margin-top: 25px;
+	height: 51px;
 }
 .designer-item:nth-child(5n){
 	margin-right: 0;
