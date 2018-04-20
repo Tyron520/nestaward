@@ -71,7 +71,7 @@ img{
 .video-desc-wrap{
 	width: 278px;
 	height: 548px;
-	padding: 40px 30px;
+	padding: 40px 28px;
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -79,7 +79,7 @@ img{
 .video-tit{
 	width: 100%;
 	height:33px; 
-	font-size:24px;
+	font-size:22px;
 	color:rgba(255,255,255,1);
 	line-height:33px;
 	overflow: hidden;
@@ -99,6 +99,7 @@ img{
 	line-height:28px;
 	line-clamp: 14;
     -webkit-line-clamp: 14;
+    word-break: break-all;
 }
 .academic{
 	padding: 100px 0 165px;
@@ -121,20 +122,20 @@ h2.tit img{
 }
 .prismatic{
 	width: 332px;
-    height: 411px;
+    height: 415px;
 	float: left;
 	overflow: hidden;
 	position: relative;
 }
 .prismatic.mt{
-	margin-top: 73px;
+	margin-top: 52px;
 }
 .prismatic-cover{
 	width: 332px;
-    height: 411px;
+    height: 415px;
 }
 .prismatic-desc{
-	width: 245px;
+	width: 264px;
 	height: 49px;
 	text-align: center;
 	line-height: 49px;
@@ -144,8 +145,8 @@ h2.tit img{
 	overflow: hidden;
 	text-overflow: ellipsis;
 	position: absolute;
-    bottom: 13px;
-    left: 14px;
+    bottom: 0px;
+    left: 0px;
     transform: skew(-10deg);
     -webkit-transform: skew(-10deg);
     -moz-transform: skew(-10deg);
@@ -358,6 +359,7 @@ h2.tit img{
 	margin: 20px auto 16px;	
 }
 .pre-desc{
+	width: 96%;
 	font-size:20px;
 	color:rgba(255,255,255,1);
 	line-height:28px;
@@ -612,7 +614,7 @@ h2.tit img{
 	-moz-box-sizing: border-box;
 }
 .designer-list{
-	height: 800px;
+	height: 1234px;
 	overflow: hidden;
 }
 .winner-bottom{
@@ -645,17 +647,19 @@ h2.tit img{
 	background: rgba(255, 255, 255, 1);
 }
 .name-list{
-	height: 800px;
+	height: 1234px;
 	overflow: hidden;
 	margin-left: 80px;
 }
 .name-item{
 	float: left;
-	width: 160px;
-	font-size: 20px;
-	text-align: left;
-	color: #fff;
-	margin-bottom: 50px;
+    width: 160px;
+    font-size: 18px;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 40px;
+    height: 50px;
+    overflow: hidden;
 }
 .seven .name-item{
 	width: 137px;
@@ -717,7 +721,7 @@ h2.tit img{
 	bottom: 0;
 	width: 284px;
 	height: 150px;
-	padding: 28px 24px 0;
+	padding: 58px 24px 0;
 	margin-left: -142px;
 	background: url('../pic/nest-judge-bg.png') no-repeat center;
 }
@@ -727,7 +731,7 @@ h2.tit img{
 	text-align: right;	
 }
 .nest-judge-desc{
-	font-size: 14px;
+	font-size: 20px;
 	line-height: 20px;
 	color: #fff;
 	margin-top: 10px;
@@ -738,7 +742,7 @@ h2.tit img{
     display: -webkit-box;
     box-orient: vertical;
     -webkit-box-orient: vertical;
-    text-align: justify; 
+    text-align: right; 
 }
 .award-list .award-btn-pre, .award-list .award-btn-next{
     width: 62px;

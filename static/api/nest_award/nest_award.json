@@ -2,50 +2,50 @@
 	"success": true,
 	"list": [
 		{
-			"name": "1方晓风",
-			"cover": "static/pic/nest_award/moment.jpg",
+			"name": "郑曙旸",
+			"cover": "static/pic/nest_award/zu_01.jpg",
 			"url": "javascript:;",
-			"desc": "装饰的灵魂是设计，设计的灵魂是文化。装饰的灵魂是设计，设计的灵魂是文化。装饰的灵魂是设计，设计的灵魂是文化。"
-		},{
-			"name": "2方晓风",
-			"cover": "static/pic/nest_award/moment.jpg",
-			"url": "javascript:;",
-			"desc": "装饰的灵魂是设计，设计的灵魂是文化。装饰的灵魂是设计，设计的灵魂是文化。装饰的灵魂是设计，设计的灵魂是文化。"
-		},
-		{
-			"name": "3方晓风",
-			"cover": "static/pic/nest_award/moment.jpg",
-			"url": "javascript:;",
-			"desc": "装饰的灵魂是设计，设计的灵魂是文化。装饰的灵魂是设计，设计的灵魂是文化。装饰的灵魂是设计，设计的灵魂是文化。"
-		},
-		{
-			"name": "方晓风",
-			"cover": "static/pic/nest_award/moment.jpg",
-			"url": "javascript:;",
-			"desc": "装饰的灵魂是设计，设计的灵魂是文化。装饰的灵魂是设计，设计的灵魂是文化。装饰的灵魂是设计，设计的灵魂是文化。"
-		},
-		{
-			"name": "方晓风",
-			"cover": "static/pic/nest_award/moment.jpg",
-			"url": "javascript:;",
-			"desc": "装饰的灵魂是设计，设计的灵魂是文化。装饰的灵魂是设计，设计的灵魂是文化。装饰的灵魂是设计，设计的灵魂是文化。"
+			"desc": "组委会名誉主席"
 		},{
 			"name": "方晓风",
-			"cover": "static/pic/nest_award/moment.jpg",
+			"cover": "static/pic/nest_award/zu_02.jpg",
 			"url": "javascript:;",
-			"desc": "装饰的灵魂是设计，设计的灵魂是文化。装饰的灵魂是设计，设计的灵魂是文化。装饰的灵魂是设计，设计的灵魂是文化。"
+			"desc": "组委会主席"
 		},
 		{
-			"name": "方晓风",
-			"cover": "static/pic/nest_award/moment.jpg",
+			"name": "吴晞",
+			"cover": "static/pic/nest_award/zu_03.jpg",
 			"url": "javascript:;",
-			"desc": "装饰的灵魂是设计，设计的灵魂是文化。装饰的灵魂是设计，设计的灵魂是文化。装饰的灵魂是设计，设计的灵魂是文化。"
+			"desc": "组委会常务委员"
 		},
 		{
-			"name": "方晓风",
-			"cover": "static/pic/nest_award/moment.jpg",
+			"name": "徐全胜",
+			"cover": "static/pic/nest_award/zu_04.jpg",
 			"url": "javascript:;",
-			"desc": "装饰的灵魂是设计，设计的灵魂是文化。装饰的灵魂是设计，设计的灵魂是文化。装饰的灵魂是设计，设计的灵魂是文化。"
+			"desc": "组委会常务委员"
+		},
+		{
+			"name": "曾辉",
+			"cover": "static/pic/nest_award/zu_05.jpg",
+			"url": "javascript:;",
+			"desc": "组委会常务委员"
+		},{
+			"name": "林学明",
+			"cover": "static/pic/nest_award/zu_06.jpg",
+			"url": "javascript:;",
+			"desc": "组委会常务委员"
+		},
+		{
+			"name": "李存东",
+			"cover": "static/pic/nest_award/zu_07.jpg",
+			"url": "javascript:;",
+			"desc": "组委会常务委员"
+		},
+		{
+			"name": "娄永琪",
+			"cover": "static/pic/nest_award/zu_08.jpg",
+			"url": "javascript:;",
+			"desc": "组委会常务委员"
 		}
 	]
 }

@@ -50,6 +50,17 @@ $(document).ready(function(){
             window.open(url, "_blank");
         }
     }
+    ZK.goIdeabooks = function(id){
+        var device = ZK.getVersions().mobile,
+            url = '';
+        if(device){
+            url = 'http://m.zhuke.com/ideabooks/'+id+'.html'
+            window.location.href = url;
+        }else{
+            url = 'http://www.zhuke.com/ideabooks/'+id;+'.html'
+            window.open(url, "_blank");
+        }
+    }
     ZK.goArticle = function(id){
         var device = ZK.getVersions().mobile,
             url = '';
@@ -68,7 +79,7 @@ $(document).ready(function(){
         slidesPerView: 'auto',
         centeredSlides: true,
         loop: true,
-        loopedSlides: 7,
+        loopedSlides: 25,//元素个数
         autoplay: false,
         navigation: {
             nextEl: '.swiper-button-next',
