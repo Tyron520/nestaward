@@ -1,9 +1,10 @@
-<link type="text/css" rel="stylesheet" href="static/css/normalize.css">
-<link type="text/css" rel="stylesheet" href="static/css/swiper.min.css">
+<link type="text/css" rel="stylesheet" href="static/css/swiper.min.css"> 
+<link type="text/css" rel="stylesheet" href="static/css/normalize.css"> 
+<link type="text/css" rel="stylesheet" href="static/css/video-js.css">  
 <link type="text/css" rel="stylesheet" href="static/css/index.css">
 
 
-uglifycss normalize.css swiper.min.css index.css> zt.min.css
+uglifycss swiper.min.css normalize.css video-js.css index.css> zt.min.css
 
 
 <link type="text/css" rel="stylesheet" href="static/css/zt.min.css">

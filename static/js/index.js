@@ -33,12 +33,12 @@ $(document).ready(function(){
     $(window).resize(function(){
         changeWidth();
     });   
-	/**配置信息**/
-	var Config = {
-		"shareCover": 'http://' + location.host + '/static/pic/share.jpg',
-		"shareTitle": "筑客网&东方研习营开启日本文化之旅",
-		"shareDesc": "2017年11月至2018年2月，来自全国各地的设计师将陆续起航，赴日本一场设计之约。"
-	};
+    /**配置信息**/
+    var Config = {
+        "shareCover": 'http://' + location.host + '2018nestaward/static/pic/share.jpg',
+        "shareTitle": "第八届筑巢奖学术论坛暨颁奖典礼专题",
+        "shareDesc": "2018年4月19日下午（意大利当地时间下午14点30分）第八届筑巢奖颁奖典礼暨金奖作品展首次走进万里之外的欧洲，定位意大利。"
+    };
     ZK.goIndex = function(id){
         var device = ZK.getVersions().mobile,
             url = '';
@@ -225,8 +225,62 @@ $(document).ready(function(){
             toggle();
         }
     });
-
-
+    // 直击终评
+    $.fn.answerSheet = function(options) {
+        var defaults={mold:'card',};
+        var opts = $.extend({},defaults,options);
+        return $(this).each(function(){
+            var obj = $(this).find('.item');
+            var len = obj.length,
+            _b = len -1;
+            for(var i = 1; i <= len; i++){
+                obj.eq(_b).css({'z-index':i});_b-=1;
+            }
+            $(this).show();
+            if(opts.mold == 'card'){
+                var count = 0;
+                $('.next').click(function(){
+                    count++;
+                    if(count >= len){
+                        count = 0
+                    }
+                    var index = $(this).parents('.card').index();
+                    obj.eq(count + 2).removeClass('cardn').addClass('card3');
+                    obj.eq(count + 1).removeClass('card3').removeClass('cardn').addClass('card2');
+                    obj.eq(count-1).removeClass('card1');
+                    setTimeout(function(){
+                        obj.eq(count).addClass('card1').removeClass('card2');
+                    },200);
+                })
+            }
+        });
+    };
+    $("#final-item-wrap").answerSheet({});   
+    // final-review-judge
+    $.getJSON('static/api/final_review/final_review.json', {}, function(res){
+        if(res.success){
+            var temp = Handlebars.compile($('#final-review-judge-temp').html()),
+                html = temp(res);
+            $('.final-review-judge-con').append(html)
+        }
+    });
+    // 实地考察
+    var galleryTop = new Swiper('.gallery-top', {
+      spaceBetween: 10,
+      loop:true,
+      loopedSlides: 5, //looped slides should be the same
+    });
+    var galleryThumbs = new Swiper('.gallery-thumbs', {
+      direction : 'vertical',
+      spaceBetween: 10,
+      slidesPerView: 5.1,
+      touchRatio: 0.2,
+      loop: true,
+      loopedSlides: 5, //looped slides should be the same
+      slideToClickedSlide: true,
+    });
+    galleryTop.controller.control = galleryThumbs;
+    galleryThumbs.controller.control = galleryTop;    
 
     /**微信分享**/
     function initShare(){
@@ -278,5 +332,5 @@ $(document).ready(function(){
         });
     }
 
-    getWeixinJsTicket();          	
+    getWeixinJsTicket();            
 })
